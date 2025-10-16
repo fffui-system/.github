@@ -4,8 +4,6 @@
 
 > every design decision must serve a clear functional purpose.
 
----
-
 ## what is fffui?
 
 fffui isn't just another component library. it's a design philosophy that teaches you **how** to think about UI, not just **what** components exist.
@@ -28,19 +26,12 @@ fffui isn't just another component library. it's a design philosophy that teache
 ### 🚀 quick start
 
 ```bash
-# coming soon
+# install components
 npm install @fffui/react @fffui/tokens
-```
 
-```tsx
+# import in your app
 import '@fffui/tokens/tokens.css'
-import { Button, Input, Card } from '@fffui/react'
-
-function App() {
-  return (
-      Submit
-  )
-}
+import { button, input, card } from '@fffui/react'
 ```
 
 ### 📚 resources
@@ -48,6 +39,7 @@ function App() {
 - [documentation](https://fffui.com) - coming soon
 - [philosophy](https://github.com/fffui-system/philosophy) - in development
 - [examples](https://github.com/fffui-system/examples) - coming soon
+- [storybook](https://storybook.fffui.com) - coming soon
 
 ### 🤝 community
 
